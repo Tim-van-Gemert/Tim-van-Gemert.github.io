@@ -30,16 +30,19 @@ async function asignCorrectLetter(arrRandomized){
 
 
 function Execute(){
-    RandomizeLetters();
-    const arrRandomized = targetWord.split('');
-    asignCorrectLetter(arrRandomized);
+        RandomizeLetters();
+        const arrRandomized = targetWord.split('');
+        setTimeout(() => {
+            asignCorrectLetter(arrRandomized);
+        }, 1000);
 }
 
 Execute();
 
 
-//Animation play script
 
+
+//Animation play script
 function CheckHeight(){
     const scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
     let value = 600
