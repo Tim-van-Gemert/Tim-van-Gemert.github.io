@@ -45,13 +45,19 @@ Execute();
 //Animation play script
 function CheckHeight(){
     const scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
-    let value = 600
+    let value = 0
 
-    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-    if (isMobile) {
-        value = 1200;
-    }
-
+    if (navigator.userAgent.match(/Android/i)
+    || navigator.userAgent.match(/webOS/i)
+    || navigator.userAgent.match(/iPhone/i) 
+    || navigator.userAgent.match(/iPad/i) 
+    || navigator.userAgent.match(/iPod/i)
+    || navigator.userAgent.match(/BlackBerry/i)
+    || navigator.userAgent.match(/Windows Phone/i)) {
+    value = 1200
+} else {
+    value = 600
+}
     console.log(value)
 
         if (scrollTop >= 100) {
