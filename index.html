@@ -8,46 +8,48 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body onscroll="CheckHeight()" class="">
+<body onscroll="CheckHeight()">
 <div>
 
 </div>
     <span class="sm:grid  sm:place-items-center section">
         <span class="flex sm:w-[1300px] sm:justify-between  pt-5 sm:pt-12 section">
-            <span class="  sm:flex sm:content-start "> 
-                <!-- <div class=" sm:w-[100px] sm:h-[100px] bg-[url('./Images/pf-foto.jpeg')] bg-cover bg-no-repeat bg-center rounded-full "></div>   -->
-                <button class=" hidden sm:block mx-1 sm:mx-10 font-medium">About Me</button>
-                <button class=" hidden sm:block mx-1 sm:mx-10 font-medium">Experiences</button>
-                <button class=" hidden sm:block mx-1 sm:mx-10 font-medium">Projects</button>
-                <button class=" hidden sm:block mx-1 sm:mx-10 font-medium">Socials</button>  
+            <span class="  sm:flex sm:content-start flex items-center"> 
+                <div class=" sm:w-[100px] sm:h-[100px] bg-[url('./Images/pf-foto.jpeg')] bg-cover bg-no-repeat bg-center rounded-full "></div>  
+                <a href="#sectionOne" class=" hidden sm:block mx-1 sm:mx-10 font-medium hover:border-b-2 hover:border-zinc-400  ">About Me</a>
+                <a href="#sectionTwo" class=" hidden sm:block mx-1 sm:mx-10 font-medium hover:border-b-2 hover:border-zinc-400  ">Experiences</a>
+                <a href="#sectionThree" class=" hidden sm:block mx-1 sm:mx-10 font-medium hover:border-b-2 hover:border-zinc-400 ">Projects</a>
+
+                <!-- <div class=" sm:block bg-[url('./Images/github-icon-2.png')] bg-cover bg-center w-[50px] h-[50px]  "> test</div> -->
+
             </span> 
         </span>
 
-        <span class="sm:flex sm:w-[1300px] sm:justify-between mt-24 section">
+        <span id="sectionOne" class="sm:flex sm:w-[1300px] sm:justify-between mt-24 section">
             <div class=" m-5 ">
                 <div>
                     <h1 class="  text-[30px]  leading-[2rem] sm:text-[65px]  sm:leading-[4.5rem] font-[1200]">Hi, I'm Tim van Gemert <br> A <span class=" text-[#6C54FF]" id="softDev" data-text="Software Developer">Software Developer</span>.</h1>
                     <p class=" text-[15px]  mt-4 sm:text-[20px]  sm:mt-8 sm:pr-56 text-zinc-500 sm:mt-10">
-                        I am a student (and coach) at the Bit-Academy, located in Amsterdam. I specialise in Front-end programming, but I also have a big interest in game development.
+                        I am a 19 year old dutch student at the Bit-Academy, located in Amsterdam. I specialise in Front-end programming, but I also have a big interest in game development.
                         <br><br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniamLorem ipsum dolor sit amet.
+                        Currently working a parttime job as a student-coach at the Bit Academy. I am looking for an internship in either game development or Front-end development
 
                     </p>
                 </div>
             </div>
 
 
-            <div class=" mb-16  sm:mb-20 grid place-items-center content-center mt-5 mr-32 ">
+            <div class=" mb-16  sm:mb-20 grid place-items-center content-center sm:mt-5 sm:mr-32 ">
                 <div>
-                <div class=" w-[250px] h-[300px] sm:w-[350px] sm:h-[450px]  bg-[url('./Images/code.png')] bg-cover  mx-[-12.5%] rounded-[56px] box "  ></div>
+                <div class=" w-[250px] h-[300px] sm:w-[350px] sm:h-[450px]  bg-[url('./Images/code.jpg')] bg-cover  mx-[-12.5%] rounded-[56px] box "  ></div>
                 <div class="w-[250px] h-[300px] sm:w-[350px] sm:h-[450px] bg-[url('./Images/ZOMBYTES.jpg')] bg-cover bg-center  mt-[-105%] mx-[12.5%] sm:mt-[-105%] sm:mx-[35%] rounded-[56px] box"></div>
                 </div>
             </div> 
         </span>
 
 
-        <span class="sm:w-[1300px] sm:mt-[-5%] sm:mb-20 " id="sectionTwo">
-            <h1 class="text-[35px]  sm:text-[40px]  font-[1200] m-5 sm:mb-10 font-medium">My Experiences</h1>
+        <span class="sm:w-[1300px] sm:mt-10 sm:mb-20 " id="sectionTwo">
+            <h1 class="text-[35px]  sm:text-[40px]  font-[1200] m-5 sm:mb-10 font-medium">Experiences</h1>
             <div class="pr-5 sm:pr-0 sm:w-[1300px]  sm:grid sm:grid-cols-3  sm:content-center sm:gap-12 sm:place-items-center">
                 <div class="pl-6  mb-5 sm:mb-0" >
                     <h3 class="pb-3 text-[25px]  font-medium text-[#6C54FF]">Unity</h3>
@@ -62,7 +64,7 @@
                     <div class=" pt-3 mx-[-4%] text-[16px] text-zinc-400"> &#60;/h3&#62;</div>
                 </div>
                 <div class="pl-6 mb-5 sm:mb-0" >
-                    <h3 class= "pb-3 text-[25px]  font-medium text-[#FF5454]">Tailwind</h3>
+                    <h3 class= "pb-3 text-[25px]  font-medium text-[#38BDF8]">Tailwind</h3>
                     <div class=" pb-3 mx-[-4%] text-[16px] text-zinc-400"> &#60;h3&#62;</div>
                     <h3 class="border-l-2 border-zinc-400 pl-5" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniamLorem ipsum dolor sit amet.</h3>
                     <div class=" pt-3 mx-[-4%] text-[16px] text-zinc-400"> &#60;/h3&#62;</div>
@@ -74,7 +76,7 @@
                     <div class=" pt-3 mx-[-4%] text-[16px] text-zinc-400"> &#60;/h3&#62;</div>
                 </div>    
                 <div class="pl-6 mb-5 sm:mb-0" >
-                    <h3 class= "pb-3 text-[25px]  font-medium text-[#5689c0]">SQL</h3>
+                    <h3 class= "pb-3 text-[25px]  font-medium text-[#DD8A00]">SQL</h3>
                     <div class=" pb-3 mx-[-4%] text-[16px] text-zinc-400"> &#60;h3&#62;</div>
                     <h3 class="border-l-2 border-zinc-400 pl-5" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniamLorem ipsum dolor sit amet.</h3>
                     <div class=" pt-3 mx-[-4%] text-[16px] text-zinc-400"> &#60;/h3&#62;</div>
@@ -91,22 +93,36 @@
         </span>
 
         <span class="sm:w-[1300px] sm:mt-10 " id="sectionThree">
-            <h1 class=" text-[35px]  sm:text-[40px]  font-[1200] m-5 sm:mb-10 font-medium">My Projects</h1>
+            <h1 class=" text-[35px]  sm:text-[40px]  font-[1200] m-5 sm:mb-10 font-medium">Projects</h1>
             <div class="sm:w-[1300px] sm:grid sm:grid-cols-3  mb-20">
                 <div class=" flex justify-center mb-10 sm:mb-0 sm:ml-5 ">
-                    <a href="https://github.com/Tim-van-Gemert/ZOMBYTES" class="z-10">
-                        <div class="w-[300px] h-[200px] sm:w-[350px] bg-[url('./Images/ZOMBYTES.jpg')] bg-cover bg-no-repeat bg-center rounded-[56px] grid col-1 content-end box " >
-                        <h3 class="pl-3 pb-3 text-[25px]  text-white font-medium pl-10">ZOMBYTES</h3></div>
+                    <a href="https://github.com/Tim-van-Gemert/ZOMBYTES" class="z-20 group">
+                        <div class=" w-[300px] h-[200px] sm:w-[350px] bg-[url('./Images/ZOMBYTES.jpg')] bg-cover bg-no-repeat bg-center rounded-[56px] grid col-1 content-end box ">
+                            <div class="overlay bg-black w-[350px] h-[200px] absolute rounded-[56px] invisible opacity-50 group-hover:visible"></div>
+                            <div class="transition ease-in-out group-hover:-translate-y-2 flex justify-between">
+                                <h3 class="pb-3 text-[25px]  text-white font-medium pl-10 ">ZOMBYTES</h3>
+                                <div class="bg-[url('./Images/github-icon.png')] bg-cover bg-center w-[50px] h-[50px] z-20 mr-10 mb-3 hidden group-hover:block "> </div>
+                            </div>
+                            <p class="pl-10 pr-10 pb-6 text-[16px]  text-white pl-10 transition ease-in-out hidden group-hover:block z-10 ">
+                                is a mini game i made for my game development exam, in wich i had 2 weeks time. Check out the repo! :)
+                            </p>
+                        </div>
                     </a>
                 </div>
                 <div class="flex justify-center mb-10 sm:mb-0 ">
-                    <a href="https://github.com/Tim-van-Gemert/DUCK1E" class="z-10">
-                    <div class="w-[300px] h-[200px] sm:w-[350px] bg-[url('./Images/duck1e.png')] bg-cover bg-no-repeat bg-center rounded-[56px] grid col-1 content-end box">
-                    <h3 class="pl-3 pb-3 text-[25px]  text-white font-medium pl-10">DUCK1E</h3></div>
+                    <a href="https://github.com/Tim-van-Gemert/DUCK1E" class="z-10 group ">
+                        <div class="w-[300px] h-[200px] sm:w-[350px] bg-[url('./Images/duck1e.png')] bg-cover bg-no-repeat bg-center rounded-[56px] grid col-1 content-end box group-hover:overlay ">
+                            <div class="overlay bg-black w-[350px] h-[200px] absolute rounded-[56px] invisible opacity-50 group-hover:visible"></div>
+                            <div class="transition ease-in-out group-hover:-translate-y-2 flex justify-between">
+                                <h3 class="pb-3 text-[25px]  text-white font-medium pl-10 ">DUCK1E</h3>
+                                <div class="bg-[url('./Images/github-icon.png')] bg-cover bg-center w-[50px] h-[50px] z-20 mr-10 mb-3 hidden group-hover:block "> </div>
+                            </div>
+                            <p class="pl-10 pr-10 pb-6 text-[16px]  text-white pl-10 transition ease-in-out hidden group-hover:block z-10 ">
+                                 is a group project i made with some other students. The goal was to make a online debugging duck.
+                            </p>
+                        </div>
                     </a>
                 </div>
-
-
                 </div>
             </div>
         </span>
@@ -117,9 +133,5 @@
 
 
       <script src="Scripts/script.js"></script>
-      <!-- <script src="./Scripts/random-letters.js"></script> -->
 </body>
 </html>
-
-<!-- 
-bg-[url('./Images/pf-foto.jpg')] bg-cover bg-no-repeat bg-center 
