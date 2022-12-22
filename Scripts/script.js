@@ -27,7 +27,6 @@ async function asignCorrectLetter(arrRandomized) {
         result = arrRandomized.join('');
         document.getElementById('softDev').innerText = result;
 
-        console.log(result);
 
         await timer(70);
     }
